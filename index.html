@@ -52,16 +52,33 @@
           );
         }
         .bg-gradient-testimonial{
-            background-image: linear-gradient(to bottom, #fff 0%, #f2f8fd 50%, #DBEDFF 100%);
+            background-image: linear-gradient(
+            to bottom,
+            #fff 0%,
+            #f2f8fd 50%,
+            #DBEDFF 100%
+          );
         }
         .bg-gradient-footer {
-          background-image: linear-gradient(145deg, #931BBD 0%, #477AE3 100%);
+          background-image: linear-gradient(
+            145deg, 
+            #931BBD 0%, 
+            #477AE3 100%
+          );
         }
         .bg-gradient-contact{
-            background-image: linear-gradient(to top, #A542C8 0%, #0351AE 31%);
+            background-image: linear-gradient(
+            to top, 
+            #A542C8 0%, 
+            #0351AE 31%
+          );
         }
         .bg-gradient-copy{
-            background-image: linear-gradient(to top, #c3dffa 0%, #0351AE 31%);
+            background-image: linear-gradient(
+            to top, 
+            #c3dffa 0%, 
+            #0351AE 31%
+          );
         }
       }
     </style>
@@ -83,19 +100,19 @@
             <div class="flex flex-none">
                 <img src="assets/logo-1.png" alt="" />
             </div>
-            <div class="hidden lg:flex flex-1 items-center justify-center">
-                <ul class="flex flex-1 items-start justify-start gap-8">
+            <div class="flex flex-1 items-center justify-center">
+                <ul class="hidden lg:flex flex-1 items-start justify-start gap-8">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Courses</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <ul class="flex flex-1 justify-center md:ml-4 flex-shrink-0">
+                <ul class="hidden lg:flex flex-1 justify-center md:ml-4 flex-shrink-0">
                     <li>
                         <a href=""><img src="assets/nav-img.svg" alt="" class="w-20" /></a>
                     </li>
                 </ul>
-                <ul class="hidden sm:flex flex-1 justify-end gap-20 font-saira space-x-4">
+                <ul class="hidden md:flex flex-1 justify-end gap-20 font-saira space-x-4">
                     <li>
                         <button type="submit" class="py-3 px-5 underline underline-offset-4">
                             Login
@@ -112,9 +129,10 @@
                 <i class="material-icons text-8xl">menu</i>
             </div>
         </nav>
-      <!-- hero section -->
+        <!-- hero section -->
         <div class="w-full bg-gradient-hero h-[1700px] xl:h-[630px] p-0 mx-0">
             <div class="w-full text-white flex flex-col gap-20 relative xl:flex-row lg:flex-col">
+                <!-- left part -->
                 <div
                     class="absolute flex flex-col items-center mt-30 ml-20 md:ml-35 md:top-20 lg:ml-30 xl:ml-5 xl:-top-5">
                     <p class="text-sm tracking-widest mr-30">
@@ -141,6 +159,7 @@
                         </button>
                     </div>
                 </div>
+                <!-- rectangle part -->
                 <div
                     class="flex flex-1 items-center justify-center absolute top-[1430px] right-[10px] lg:right-[600px] xl:top-[465px] xl:right-[520px]">
                     <div class="relative">
@@ -151,6 +170,7 @@
                             class="h-60 w-[400px] xl:h-33 xl:w-[220px] absolute top-10 right-3 xl:right-1 xl:top-9" />
                     </div>
                 </div>
+                <!-- content part -->
                 <div class="flex flex-cols absolute top-[1500px] left-20 lg:top-55 lg:ml-[700px] xl:top-30 xl:left-0">
                     <img src="assets/hero-img-text.svg" alt="" srcset="" />
                     <h4 class="flex flex-1 absolute left-10 bottom-32">Shyam</h4>
@@ -162,6 +182,7 @@
                         4.9
                     </p>
                 </div>
+                <!-- hero part -->
                 <div
                     class="flex flex-col relative top-[600px] md:top-[650px] lg:top-96 xl:absolute xl:-top-60 xl:right-0">
                     <img src="assets/hero-background.svg" alt="" class="" />
@@ -170,7 +191,7 @@
                 </div>
             </div>
         </div>
-      <!-- brand section -->
+        <!-- brand section -->
         <div class="w-full bg-gradient-brand absolute lg:flex-row lg: lg:py-10">
             <ul class="flex flex-row items-center justify-center mx-auto gap-32 pt-5 lg:justify-start lg:px-2">
                 <li><img src="assets/brand 1.png" alt="" /></li>
@@ -189,8 +210,9 @@
     <!-- featured course starts -->
     <section class="w-full bg-gradient-feature relative">
         <div class="pb-60 mt-36">
+            <!-- circle img -->
             <img src="assets/circle.png" alt="" class="flex justify-start absolute left-20 top-[6%]" />
-
+            <!-- top part -->
             <div class="relative flex top-30 justify-center">
                 <div class="absolute mx-auto">
                     <h3 class="flex items-center justify-center text-[#323232] gap-2 text-2xl">
@@ -201,7 +223,7 @@
                     </p>
                 </div>
             </div>
-
+            <!-- course cards -->
             <div class="mt-[40%] lg:mt-[25%]">
                 <div class="relative grid grid-cols-2 lg:grid lg:grid-cols-3 gap-10 mx-20">
                     <div class="bg-[#ffffff] w-full rounded-lg">
@@ -302,6 +324,7 @@
                     </div>
                 </div>
             </div>
+            <!-- explore button -->
             <button class="absolute bottom-30 left-[45%] bg-gradient-btn py-3 px-5 rounded-md text-white">
                 Explore Courses
             </button>
@@ -312,6 +335,7 @@
     <!-- learn course starts -->
     <section class="w-full bg-gradient-learn relative">
         <div class="text-[#ffffff] pb-30">
+            <!-- top part -->
             <div class="flex justify-center">
                 <div class="absolute top-20 text-center">
                     <h1 class="flex justify-center text-2xl tracking-wider">
@@ -324,6 +348,7 @@
                     </p>
                 </div>
             </div>
+            <!-- rectangle part -->
             <div class="mt-[10%]">
                 <div class="relative">
                     <img src="assets/Rectangle-course 1.svg" alt="" class="h-60 w-[130px]" />
@@ -331,6 +356,7 @@
                     <img src="assets/Rectangle-course 3.svg" alt="" class="h-42 w-[110px] absolute top-9" />
                 </div>
             </div>
+            <!-- course cards -->
             <div class="grid lg:flex lg:">
                 <div class="grid ml-[45%] lg:ml-50">
                     <img src="assets/learn.svg" alt="" />
@@ -370,6 +396,7 @@
     <!-- category starts -->
     <section class="w-full bg-gradient-category relative">
         <div class="pb-30">
+            <!-- top part -->
             <div class="flex justify-center">
                 <div class="absolute top-20 text-center">
                     <h1 class="flex justify-center text-2xl tracking-wider">
@@ -378,6 +405,7 @@
                     <p class="">100+ unique online course list designs</p>
                 </div>
             </div>
+            <!-- category cards -->
             <div class="mt-[40%] lg:mt-[20%]">
                 <div
                     class="grid grid-cols-3 gap-20 ml-10 mr-20 md:gap-[18%] md:mx-[20%] md:pb-20 lg:grid lg:grid-cols-3 lg:gap-[18%] lg:mx-[20%] xl:flex xl:flex-1 xl:gap-15 xl:mx-10">
@@ -417,8 +445,10 @@
     </section>
     <!-- category ends -->
 
+    <!-- subscribe starts -->
     <section class="relative">
         <div class="bg-gradient-subscribe text-[#ffffff] pb-30 mt-30 mx-10 lg:mx-30 mb-40 rounded-xl pb-96">
+            <!-- update part -->
             <div class="grid justify-center">
                 <div class="absolute left-[19%] md:left-[25%] lg:left-[35%] top-[20%]">
                     <h1 class="text-4xl text-center">
@@ -437,7 +467,8 @@
                     </div>
                 </div>
             </div>
-            <div class="">
+            <!-- polygon part -->
+            <div>
                 <img src="assets/Polygon 1.png" alt=""
                     class="opacity-50 mt-9 ml-[200px] md:mt-9 md:ml-[280px] xl:mt-9 xl:ml-[480px]" />
                 <img src="assets/Polygon 2.png" alt=""
@@ -445,6 +476,7 @@
                 <img src="assets/Polygon 3.png" alt=""
                     class="absolute top-[530px] right-0 md:top-[530px] md:right-0 xl:top-[640px] xl:right-0" />
             </div>
+            <!-- small img part-1 -->
             <div class="relative flex flex-col items-start">
                 <img src="assets/Ellipse 1.png" alt=""
                     class="h-10 w-10 absolute top-5 left-5 lg:absolute lg:top-14 lg:left-14" />
@@ -453,6 +485,7 @@
                 <img src="assets/Ellipse 3.png" alt=""
                     class="h-10 w-10 absolute top-68 left-5 lg:absolute lg:top-64 lg:left-16" />
             </div>
+            <!-- small img part-2 -->
             <div class="relative flex flex-col items-end">
                 <img src="assets/Ellipse 4.png" alt=""
                     class="h-10 w-10 absolute top-5 right-5 lg:absolute lg:top-14 lg:right-14" />
@@ -463,15 +496,20 @@
             </div>
         </div>
     </section>
+    <!-- subscribe ends -->
 
+    <!-- testimonial starts -->
     <section class="bg-gradient-testimonial relative">
+        <!-- video part -->
         <div>
             <img src="assets/estimonial-img .png" alt=""
                 class="pb-30 mt-70 w-[500px] mx-auto md:w-[650px] lg:w-[750px] xl:w-[950px]">
             <img src="assets/play-btn.png" alt=""
                 class="absolute left-[47%] top-[100px] w-[90px] md:left-[47%] md:top-[130px] md:w-[100px] lg:left-[45%] lg:top-[159px] lg:w-[150px] xl:left-[47%] xl:top-[199px]">
         </div>
+        <!-- main part -->
         <main class="-mt-[400px]">
+            <!-- img part -->
             <img src="assets/banner_right.png.png" alt=""
                 class="absolute top-[165px] right-5 w-[180px] md:top-[240px] md:right-23 md:w-[200px] lg:top-[300px] lg:right-33 lg:w-[200px] xl:w-[330px] xl:top-[330px] xl:right-10">
             <img src="assets/half-circle.png" alt=""
@@ -480,6 +518,7 @@
                 <h1 class="text-[#0E38CD]">Testimonials</h1>
                 <p class="text-[#4E596B]">What our student say about us</p>
             </div>
+            <!-- testimonial cards -->
             <div class="mt-30 ml-20 pb-80">
                 <div class="flex flex-1 gap-10">
                     <div
@@ -516,6 +555,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- arrow part -->
                 <div class="absolute flex flex-1 gap-2 right-0 bottom-10 lg:bottom-10">
                     <img src="assets/Back Arrow.png" alt="">
                     <img src="assets/Back Arrow (1).png" alt="">
@@ -523,9 +563,12 @@
             </div>
         </main>
     </section>
+    <!-- testimonial ends -->
 
-    <section class="bg-gradient-footer relative w-full">
+    <!-- footer starts -->
+    <footer class="bg-gradient-footer relative w-full">
         <div class="grid gap-30 xl:flex xl:flex-1 xl:gap-20 pb-30">
+            <!-- left part -->
             <div class="ml-[30%] mt-20 md:ml[48%] lg:ml-[38%] xl:ml-[5%] xl:mt-20">
                 <h3 class="text-[#0A033C] ml-30">Connect</h3>
                 <img src="assets/logo-1.png" alt="" class="text-[#0A033C] ml-10">
@@ -533,6 +576,7 @@
                     Pragati Colony, Mailardevpally, Nawab
                     Saheb Kunta, Hyd, 500005</p>
             </div>
+            <!-- right part -->
             <div class=" mx-20 md:mx-40 lg:mx-45 xl:mx-20 xl:mt-18">
                 <div class="grid grid-cols-2 gap-x-30 gap-y-20 lg:flex lg:flex-1 lg:gap-20 lg:items-center">
                     <div class="xl:-mt-10">
@@ -580,6 +624,7 @@
                 </div>
             </div>
         </div>
+        <!-- contact part -->
         <div class="bg-gradient-contact py-5">
             <div class="flex flex-1 justify-center gap-x-5">
                 <img src="assets/Instagram.png" alt="" class="w-10 h-10 rounded-full bg-[#ffffff]">
@@ -589,8 +634,10 @@
                 <img src="assets/YouTube.png" alt="" class="w-10 h-10 rounded-full bg-[#ffffff]">
             </div>
         </div>
+        <!-- footer end part -->
         <p class="bg-gradient-copy py-2 text-center">Copyright @ 2023 askmeidentity. All Rights Reserved</p>
-    </section>
+    </footer>
+    <!-- footer ends -->
 </body>
 
 </html>
