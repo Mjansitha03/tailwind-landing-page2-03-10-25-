@@ -29,8 +29,8 @@
         .bg-gradient-feature {
           background-image: linear-gradient(
             to bottom,
-            #d9ecff 0%,
-            #f0f3ff 100%
+            #f8f9ff 50%,
+            #d9ecff 100%
           );
         }
         .bg-gradient-learn {
@@ -39,16 +39,16 @@
         .bg-gradient-category {
           background-image: linear-gradient(
             to bottom,
-            #d9ecff 0%,
+            #f8f9ff 50%,
             #d9ecff 100%
           );
         }
         .bg-gradient-subscribe {
           background-image: linear-gradient(
             45deg,
-            #00b3ff 0%,
-            #1901f8 56%,
-            #e441ff 100%
+            #00b3ff 20%,
+            #1901f8 50%,
+            #e441ff 90%
           );
         }
         .bg-gradient-testimonial{
@@ -80,6 +80,7 @@
             #0351AE 31%
           );
         }
+
       }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -96,18 +97,18 @@
     <!-- header starts -->
     <header class="w-full overflow-hidden">
         <!-- nav section -->
-        <nav class="w-full flex flex-row items-center md:gap-5 lg:gap-60 xl:gap-80">
-            <div class="flex flex-none">
+        <nav class="w-full flex flex-row items-center md:gap-18 lg:gap-30 xl:gap-90">
+            <div class="flex flex-none mt-6 ml-5">
                 <img src="assets/logo-1.png" alt="" />
             </div>
             <div class="flex flex-1 items-center justify-center md:gap-2">
-                <ul class="hidden md:flex flex-1 items-start justify-start md:gap-3 lg:gap-8 lx:gap-60">
+                <ul class="hidden md:flex flex-1 items-start justify-start md:gap-3 lg:gap-8 lx:gap-40">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Courses</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <ul class="hidden md:flex flex-1 justify-center md:ml-10 lg:ml-15 xl:ml-">
+                <ul class="hidden md:flex flex-1 justify-center md:ml-10 lg:ml-5 xl:ml-">
                     <li>
                         <a href=""><img src="assets/nav-img.svg" alt="" class="w-20" /></a>
                     </li>
@@ -161,7 +162,7 @@
                 </div>
                 <!-- rectangle part -->
                 <div
-                    class="flex flex-1 items-center justify-center absolute top-[1430px] right-[10px] lg:right-[600px] xl:top-[465px] xl:right-[520px]">
+                    class="flex flex-1 items-center justify-center absolute top-[1430px] right-[10px] lg:right-[600px] xl:top-[465px] xl:right-[520px] 2xl:right-[720px]">
                     <div class="relative">
                         <img src="assets/Rectangle-hero 1.svg" alt="" class="h-77 w-[427px] xl:h-47 xl:w-[227px]" />
                         <img src="assets/Rectangle-hero 2.svg" alt=""
@@ -192,13 +193,13 @@
             </div>
         </div>
         <!-- brand section -->
-        <div class="w-full bg-gradient-brand absolute lg:flex-row lg: lg:py-10">
-            <ul class="flex flex-row items-center justify-center mx-auto gap-32 pt-5 lg:justify-start lg:px-2">
+        <div class="w-full relative bg-gradient-brand absolute py-7 lg:flex-row lg:py-10">
+            <ul class="flex flex-row items-center justify-center mx-auto gap-29 lg:justify-start lg:pl-20 lg:gap-20">
                 <li><img src="assets/brand 1.png" alt="" /></li>
                 <li><img src="assets/brand 2.png" alt="" /></li>
             </ul>
             <ul
-                class="flex flex-row items-center justify-center mx-auto gap-32 pb-5 lg:absolute lg:top-10 lg:right-0 lg:px-2">
+                class="flex flex-row items-center justify-center mx-auto gap-29 pr-10 p-5 lg:absolute lg:right-0 lg:-my-17 lg:pr-20 lg:gap-20">
                 <li><img src="assets/brand 3.png" alt="" /></li>
                 <li><img src="assets/brand 4.png" alt="" /></li>
                 <li><img src="assets/brand 2.png" alt="" /></li>
@@ -209,9 +210,9 @@
 
     <!-- featured course starts -->
     <section class="w-full bg-gradient-feature relative">
-        <div class="pb-60 mt-36">
+        <div class="pb-60">
             <!-- circle img -->
-            <img src="assets/circle.png" alt="" class="flex justify-start absolute left-20 top-[6%]" />
+            <img src="assets/circle.png" alt="" class="flex justify-start absolute left-10 top-[7%] lg:left-30" />
             <!-- top part -->
             <div class="relative flex top-30 justify-center">
                 <div class="absolute mx-auto">
@@ -224,7 +225,7 @@
                 </div>
             </div>
             <!-- course cards -->
-            <div class="mt-[40%] lg:mt-[25%]">
+            <div class="mt-[40%] md:mt-[30%] lg:mt-[25%] 2xl:mt-[20%]">
                 <div class="relative grid grid-cols-2 lg:grid lg:grid-cols-3 gap-10 mx-20">
                     <div class="bg-[#ffffff] w-full rounded-lg">
                         <img src="assets/course1.png" alt="" class="rounded-t-md" />
@@ -325,7 +326,8 @@
                 </div>
             </div>
             <!-- explore button -->
-            <button class="absolute bottom-30 left-[45%] bg-gradient-btn py-3 px-5 rounded-md text-white">
+            <button
+                class="absolute bottom-25 left-[40%] md:left-[41%] 2xl:left-[45%] bg-gradient-btn py-3 px-5 rounded-md text-white">
                 Explore Courses
             </button>
         </div>
@@ -349,7 +351,7 @@
                 </div>
             </div>
             <!-- rectangle part -->
-            <div class="mt-[10%]">
+            <div class="mt-[7%]">
                 <div class="relative">
                     <img src="assets/Rectangle-course 1.svg" alt="" class="h-60 w-[130px]" />
                     <img src="assets/Rectangle-course 2.svg" alt="" class="h-46 w-[120px] absolute top-7" />
@@ -357,7 +359,7 @@
                 </div>
             </div>
             <!-- course cards -->
-            <div class="grid lg:flex lg:">
+            <div class="grid lg:flex lg:-mt-20">
                 <div class="grid ml-[45%] lg:ml-50">
                     <img src="assets/learn.svg" alt="" />
                     <div class="mt-2">
@@ -406,35 +408,36 @@
                 </div>
             </div>
             <!-- category cards -->
-            <div class="mt-[40%] lg:mt-[20%]">
+
+            <div class="relative mt-[30%] md:mt-[23%] lg:mt-[20%]  xl:mt-[15%] 2xl:mt-[15%] mx-auto">
                 <div
-                    class="grid grid-cols-3 gap-20 ml-10 mr-20 md:ml-15 md:gap-y-[18%] md:gap-x-[28%] md:mx-[20%] md:pb-20 lg:grid lg:grid-cols-3 lg:gap-[18%] lg:mx-[20%] xl:flex xl:flex-1 xl:gap-15 xl:mx-10">
-                    <div class="grid bg-[#ffffff] py-5 px-10 w-[170px]">
+                    class="relative grid grid-cols-[1fr_1fr_1fr] gap-y-6 gap-x-10 mx-12 md:gap-y-30 md:gap-x-20 md:mx-30 lg:mx-55 xl:flex xl:flex-1 xl:flex-row xl:gap-8 xl:mx-45 2xl:gap-22 2xl:mx-50">
+                    <div class="grid bg-[#ffffff] py-5 px-8 w-[150px]">
                         <img src="assets/unique1.png" alt="" class="mb-10" />
                         <h3 class="text-center">Digital Marketing</h3>
                         <p class="mt-10">25 Courses</p>
                     </div>
-                    <div class="grid bg-[#ffffff] py-5 px-10 w-[170px]">
+                    <div class="grid bg-[#ffffff] py-5 px-8 w-[150px]">
                         <img src="assets/unique2.svg" alt="" class="mb-10" />
                         <h3 class="text-center">Web Development</h3>
                         <p class="mt-10">16 Courses</p>
                     </div>
-                    <div class="grid bg-[#ffffff] py-5 px-10 w-[170px]">
+                    <div class="grid bg-[#ffffff] py-5 px-8 w-[150px]">
                         <img src="assets/unique3.png" alt="" class="mb-10" />
                         <h3 class="text-center">Art & Humanities</h3>
                         <p class="mt-10">76 Courses</p>
                     </div>
-                    <div class="grid bg-[#ffffff] py-5 px-10 w-[170px]">
+                    <div class="grid bg-[#ffffff] py-5 px-8 w-[150px]">
                         <img src="assets/unique4.png" alt="" class="mb-10" />
                         <h3 class="text-center">Personal Development</h3>
                         <p class="mt-10">22 Courses</p>
                     </div>
-                    <div class="grid bg-[#ffffff] py-5 px-10 w-[170px]">
+                    <div class="grid bg-[#ffffff] py-5 px-8 w-[150px]">
                         <img src="assets/unique5.png" alt="" class="mb-10" />
                         <h3 class="text-center">IT and Software</h3>
                         <p class="mt-10">110 Courses</p>
                     </div>
-                    <div class="grid bg-[#ffffff] py-5 px-10 w-[170px]">
+                    <div class="grid bg-[#ffffff] py-5 px-8 w-[150px]">
                         <img src="assets/unique6.png" alt="" class="mb-10" />
                         <h3 class="text-center">Graphic Design</h3>
                         <p class="mt-10">85 Courses</p>
@@ -447,10 +450,10 @@
 
     <!-- subscribe starts -->
     <section class="relative">
-        <div class="bg-gradient-subscribe text-[#ffffff] pb-30 mt-30 mx-10 lg:mx-30 mb-40 rounded-xl pb-96">
+        <div class="bg-gradient-subscribe text-[#ffffff] pb-30 mt-30 mx-10 md:mx-20 lg:mx-30 mb-40 rounded-xl pb-96">
             <!-- update part -->
             <div class="grid justify-center">
-                <div class="absolute left-[19%] md:left-[25%] lg:left-[35%] top-[20%]">
+                <div class="absolute left-[19%] md:left-[25%] lg:left-[31%] top-[20%] 2xl:left-[40%]">
                     <h1 class="text-4xl text-center">
                         Subscribe For Get Update <br />
                         Every New Courses
@@ -470,50 +473,50 @@
             <!-- polygon part -->
             <div>
                 <img src="assets/Polygon 1.png" alt=""
-                    class="opacity-80 mt-9 ml-[200px] md:mt-9 md:ml-[280px] xl:mt-9 xl:ml-[480px]" />
+                    class="opacity-80 mt-9 ml-[200px] md:mt-9 md:ml-[280px] lg:ml-[380px] xl:mt-9 xl:ml-[480px] xl:ml-[680px]" />
                 <img src="assets/Polygon 2.png" alt=""
-                    class="absolute top-[478px] left-0 md:top-[478px] md:left-0 xl:top-[480px] xl:left-17" />
+                    class="absolute top-[478px] left-0 md:top-[470px] md:left-7 lg:left-17 xl:top-[480px] xl:left-17" />
                 <img src="assets/Polygon 3.png" alt=""
                     class="absolute top-[530px] right-0 md:top-[530px] md:right-0 xl:top-[640px] xl:right-0" />
             </div>
             <!-- small img part-1 -->
             <div class="relative flex flex-col items-start">
                 <img src="assets/Ellipse 1.png" alt=""
-                    class="h-10 w-10 absolute top-5 left-5 lg:absolute lg:top-14 lg:left-14" />
+                    class="h-10 w-10 absolute -top-10 left-10 md:left-15 lg:absolute lg:-top-10 lg:left-14" />
                 <img src="assets/Ellipse 2.png" alt=""
-                    class="h-10 w-10 absolute top-38 left-15 lg:absolute lg:top-38 lg:left-30" />
+                    class="h-10 w-10 absolute top-30 left-15 md:left-25 lg:absolute lg:top-30 lg:left-30" />
                 <img src="assets/Ellipse 3.png" alt=""
-                    class="h-10 w-10 absolute top-68 left-5 lg:absolute lg:top-64 lg:left-16" />
+                    class="h-10 w-10 absolute top-68 left-10 md:left-20 lg:absolute lg:top-64 lg:left-16" />
             </div>
             <!-- small img part-2 -->
             <div class="relative flex flex-col items-end">
                 <img src="assets/Ellipse 4.png" alt=""
-                    class="h-10 w-10 absolute top-5 right-5 lg:absolute lg:top-14 lg:right-14" />
+                    class="h-10 w-10 absolute -top-10 right-5 md:right-15 lg:absolute lg:-top-10 lg:right-14" />
                 <img src="assets/Ellipse 5.png" alt=""
-                    class="h-10 w-10 absolute top-38 right-15 lg:absolute lg:top-38 lg:right-28" />
+                    class="h-10 w-10 absolute top-30 right-15 md:right-25 lg:absolute lg:top-30 lg:right-28" />
                 <img src="assets/Ellipse 6.png" alt=""
-                    class="h-10 w-10 absolute top-68 right-5 lg:absolute lg:top-64 lg:right-16" />
+                    class="h-10 w-10 absolute top-68 right-10 md:right-20 lg:absolute lg:top-64 lg:right-16" />
             </div>
         </div>
     </section>
     <!-- subscribe ends -->
 
     <!-- testimonial starts -->
-    <section class="bg-gradient-testimonial relative">
+    <section class="bg-gradient-testimonial relative xl:mt-[300px]">
         <!-- video part -->
-        <div>
+        <div class="relative">
             <img src="assets/estimonial-img .png" alt=""
-                class="pb-30 mt-70 w-[500px] mx-auto md:w-[650px] lg:w-[750px] xl:w-[950px]">
+                class="pb-30 w-[500px] mx-auto md:w-[650px] lg:w-[700px] xl:w-[900px]">
             <img src="assets/play-btn.png" alt=""
                 class="absolute left-[47%] top-[100px] w-[90px] md:left-[47%] md:top-[130px] md:w-[100px] lg:left-[45%] lg:top-[159px] lg:w-[150px] xl:left-[47%] xl:top-[199px]">
+            <img src="assets/banner_right.png.png" alt=""
+                class="absolute top-[165px] right-[5%] w-[180px] md:top-[240px] md:right-23 md:w-[200px] lg:top-[300px] lg:right-33 lg:w-[200px] xl:w-[330px] xl:top-[330px] xl:right-10 2xl:right-55 2xl:top-[300px]">
         </div>
         <!-- main part -->
-        <main class="-mt-[400px]">
+        <main class="-mt-[600px]">
             <!-- img part -->
-            <img src="assets/banner_right.png.png" alt=""
-                class="absolute top-[165px] right-5 w-[180px] md:top-[240px] md:right-23 md:w-[200px] lg:top-[300px] lg:right-33 lg:w-[200px] xl:w-[330px] xl:top-[330px] xl:right-10">
             <img src="assets/half-circle.png" alt=""
-                class="w-10 absolute top-[600px] left-20 md:top-[690px] md:left-30 lg:w-15 lg:top-[740px] lg:left-30 xl:w-20 xl:top-[850px] xl:left-40">
+                class="w-10 absolute top-[410px] left-20 md:top-[505px] md:left-30 lg:w-15 lg:top-[560px] lg:left-30 xl:w-20 xl:top-[660px] xl:left-40 2xl:top-[640px]">
             <div class="flex flex-col items-center mt-[500px] pt-20 gap-3">
                 <h1 class="text-[#0E38CD]">Testimonials</h1>
                 <p class="text-[#4E596B]">What our student say about us</p>
@@ -522,7 +525,7 @@
             <div class="mt-30 ml-20 pb-80">
                 <div class="flex flex-1 gap-10">
                     <div
-                        class="bg-[#ffffff] w-[400px] h-[190px] px-8 rounded-md shadow-md absolute bottom-8 left-[25%] md:bottom-8 md:left-[31%] lg:bottom-80 lg:left-[56%] xl:bottom-[315px] xl:left-[63%]">
+                        class="bg-[#ffffff] w-[400px] h-[190px] px-8 rounded-md shadow-md absolute bottom-8 left-[25%] md:bottom-8 md:left-[31%] lg:bottom-80 lg:left-[56%] xl:bottom-[315px] xl:left-[65%] 2xl:left-[64%]">
                         <div class="relative flex flex-initial">
                             <img src="assets/est-img.png" alt="" class="flex items-center absolute -top-8 left-[43%]">
                             <p class="text-[#7E7EAA] absolute top-15 text-sm">Such an amazing traniner and easily
@@ -533,7 +536,7 @@
                         </div>
                     </div>
                     <div
-                        class="bg-[#ffffff] w-[400px] h-[190px] px-8 rounded-md shadow-md absolute left-[25%] md:left-[30%] lg:left-[33%] xl:left-[35%]">
+                        class="bg-[#ffffff] w-[400px] h-[190px] px-8 rounded-md shadow-md absolute left-[25%] md:left-[30%] lg:left-[33%] xl:left-[36%] 2xl:left-[40%]">
                         <div class="relative">
                             <img src="assets/est-img.png" alt="" class="flex items-center absolute -top-10 left-[43%]">
                             <p class="text-[#7E7EAA] absolute top-15 text-sm">Such an amazing traniner and easily
@@ -544,7 +547,7 @@
                         </div>
                     </div>
                     <div
-                        class="bg-[#ffffff] w-[400px] h-[190px] px-8 rounded-md shadow-md mt-75 ml-[16%] md:mt-75 md:ml-[24%] lg:mt-35 lg:ml-2 xl:mt-10 xl:ml-5">
+                        class="bg-[#ffffff] w-[400px] h-[190px] px-8 rounded-md shadow-md mt-75 ml-[16%] md:mt-75 md:ml-[24%] lg:mt-35 lg:ml-2 xl:mt-10 xl:ml-5 2xl:ml-50">
                         <div class="relative">
                             <img src="assets/est-img.png" alt="" class="flex items-center absolute -top-8 left-[43%]">
                             <p class="text-[#7E7EAA] absolute top-15 text-sm">Such an amazing traniner and easily
@@ -567,7 +570,7 @@
 
     <!-- footer starts -->
     <footer class="bg-gradient-footer relative w-full">
-        <div class="grid gap-30 xl:flex xl:flex-1 xl:gap-20 pb-30">
+        <div class="grid gap-30 xl:flex xl:flex-1 xl:gap-20 pb-30 2xl:gap-60">
             <!-- left part -->
             <div class="ml-[30%] mt-20 md:ml[48%] lg:ml-[38%] xl:ml-[5%] xl:mt-20">
                 <h3 class="text-[#0A033C] ml-30">Connect</h3>
